@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>SmartBox - Cofre Inteligente</title>
+</head>
+<body>
+
+    <!-- PAGINA INICIAL -->
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#" ><img src="img/logo savebox.png" class="logo" alt="" ></a>
+            <ul>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Produto</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>Isso não é só um Cofre<br>Isso é <span>SmartBox</span></h2>
+                <p>Diferente dos cofres convencionais, SmartBox é um cofre inteligente. Enquanto os cofres tradicionais são roubados com facilidade, SmartBox tem a inteligência de identicar o perigo do seu Cofre através de métodos tradicionais validados e extramente seguros.</p>
+                <a href="#">Sobre o Produto</a>
+            </div>
+            <div class="imgBox">
+                <img src="img/img1.png" class="SmartBox" alt="">
+            </div>
+        </div>
+        <ul class="sci">
+            <li><a href="#"><img src="img/facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="img/instagram.png" alt=""></a></li>
+            <li><a href="#"><img src="img/twitter.png" alt=""></a></li>
+        </ul>
+    </section>
+    <!-- PAGINA INICIAL FINAL-->
+
+
+    <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.starbucks').src = anything;
+        }
+        function changeCirleColor(color){
+            const circle = document.querySelector('.circle');
+            circle.style.background = color;
+        }
+    </script>
+
+</body>
+</html>
