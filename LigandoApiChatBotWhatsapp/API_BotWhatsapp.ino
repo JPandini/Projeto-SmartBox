@@ -5,13 +5,13 @@
 #include <string>
 
 
-const char* ssid = "Messi";
-const char* password = "12345678";
+const char* ssid = "nome da rede";
+const char* password = "senha";
 
 // +international_country_code + phone number
 // Portugal +351, example: +351912345678
-String receiverId = "88969616";
-String apiKey = "69a6d8bb-d433-4ef4-aa84-1a4a4bb58834";
+String receiverId = "id";
+String apiKey = "apiKEY";
 
 void sendMessage(String message){
 
@@ -26,7 +26,7 @@ void sendMessage(String message){
   //
   
   http.addHeader("Content-Type", "application/json");
-  http.addHeader("Authorization", "69a6d8bb-d433-4ef4-aa84-1a4a4bb58834");
+  http.addHeader("Authorization", "apiKey");
 
   String msg = "{'value': '634725'}";
   
