@@ -16,7 +16,7 @@ String apiKey = "apiKEY";
 void sendMessage(String message){
 
   // Data to send with HTTP POST
-  String url = "https://backend.botconversa.com.br/api/v1/webhook/subscriber/88969616/send_flow/" + receiverId + "&apikey=" + apiKey + "&text=" + urlEncode(message);
+  String url = "url do flow (caminho) chat bot de whatsapp" + receiverId + "&apikey=" + apiKey + "&text=" + urlEncode(message);
   WiFiClient client;
   HTTPClient http;
   http.begin(client, url);
